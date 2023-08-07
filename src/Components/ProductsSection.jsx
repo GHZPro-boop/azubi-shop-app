@@ -1,4 +1,12 @@
 import React from "react";
+import alonziDress from "../assest/alonzidress.png";
+import longSleeves from "../assest/longsleeves.png";
+import mensWatch from "../assest/watch.png";
+import mensShirt from "../assest/menshirt.png";
+import nikeSneaker from "../assest/nikesneaker.png";
+import pumaSneaker from "../assest/pumasneaker.png";
+import jeans from "../assest/jeans.png";
+import cap from "../assest/cap.png";
 
 export const Products = () => {
 
@@ -7,7 +15,7 @@ export const Products = () => {
             <div className="grid grid-cols-4 gap-8 justify-center items-center mx-[5%]">
                 <div className="shadow-[1px_1px_8px_1px_rgba(0,_0,_0,_0.25)] overflow-hidden bg-white flex flex-col justify-between gap-4 p-2 rounded">
                     <img
-                        src="https://file.rendit.io/n/7XFiwQ6uAF1Pd0IwyX20.png"
+                        src={mensShirt}
                         className="min-h-0 min-w-0 self-center"
                     />
                     <div className="flex flex-col mr-2 gap-2 items-start">
@@ -31,7 +39,7 @@ export const Products = () => {
                 </div>
                 <div className="shadow-[1px_1px_8px_1px_rgba(0,_0,_0,_0.25)] overflow-hidden bg-white flex flex-col justify-between gap-4 p-2 rounded">
                     <img
-                        src="https://file.rendit.io/n/19BN9O1R1yCpxXJGlBtY.png"
+                        src={nikeSneaker}
                         className="min-h-0 min-w-0 self-center"
                     />
                     <div className="flex flex-col mr-2 gap-2 items-start">
@@ -55,7 +63,7 @@ export const Products = () => {
                 </div>
                 <div className="shadow-[1px_1px_8px_1px_rgba(0,_0,_0,_0.25)] overflow-hidden bg-white flex flex-col justify-between mr-px gap-4 p-2 rounded">
                     <img
-                        src="https://file.rendit.io/n/gCVuKt6n08aaSZC7xOIG.png"
+                        src={pumaSneaker}
                         className="min-h-0 min-w-0 self-center"
                     />
                     <div className="flex flex-col mr-2 gap-2 items-start">
@@ -79,7 +87,7 @@ export const Products = () => {
                 </div>
                 <div className="shadow-[1px_1px_8px_1px_rgba(0,_0,_0,_0.25)] overflow-hidden bg-white flex flex-col justify-between gap-4 p-2 rounded">
                     <img
-                        src="https://file.rendit.io/n/VhP0RWXM6Ffqo9kowRNk.png"
+                        src={alonziDress}
                         className="min-h-0 min-w-0 self-center"
                     />
                     <div className="flex flex-col mr-2 gap-2 items-start">
@@ -105,7 +113,7 @@ export const Products = () => {
             <div className="grid grid-cols-4 gap-8 justify-center items-center mx-[5%] mt-7">
                 <div className="shadow-[1px_1px_8px_1px_rgba(0,_0,_0,_0.25)] overflow-hidden bg-white flex flex-col justify-between gap-4 p-2 rounded">
                     <img
-                        src="https://file.rendit.io/n/reFftw4a2RLK9CFRPkXN.png"
+                        src={mensWatch}
                         className="min-h-0 min-w-0 self-center"
                     />
                     <div className="flex flex-col mr-2 gap-2 items-start">
@@ -129,7 +137,7 @@ export const Products = () => {
                 </div>
                 <div className="shadow-[1px_1px_8px_1px_rgba(0,_0,_0,_0.25)] overflow-hidden bg-white flex flex-col justify-between mr-px gap-4 p-2 rounded">
                     <img
-                        src="https://file.rendit.io/n/CKN7bT339oZppWZEcn4r.png"
+                        src={cap}
                         className="min-h-0 min-w-0 self-center"
                     />
                     <div className="flex flex-col mr-2 gap-2 items-start">
@@ -153,7 +161,7 @@ export const Products = () => {
                 </div>
                 <div className="shadow-[1px_1px_8px_1px_rgba(0,_0,_0,_0.25)] overflow-hidden bg-white flex flex-col justify-between gap-4 p-2 rounded">
                     <img
-                        src="https://file.rendit.io/n/RX3bGDpgmW9U4jDmTQK7.png"
+                        src={jeans}
                         className="min-h-0 min-w-0 self-center"
                     />
                     <div className="flex flex-col mr-2 gap-2 items-start">
@@ -177,7 +185,7 @@ export const Products = () => {
                 </div>
                 <div className="shadow-[1px_1px_8px_1px_rgba(0,_0,_0,_0.25)] overflow-hidden bg-white flex flex-col justify-between gap-4 p-2 rounded">
                     <img
-                        src="https://file.rendit.io/n/ReoZIO9G8fIfC4ZEaCgK.png"
+                        src={longSleeves}
                         className="min-h-0 min-w-0 self-center"
                     />
                     <div className="flex flex-col mr-2 gap-2 items-start">
