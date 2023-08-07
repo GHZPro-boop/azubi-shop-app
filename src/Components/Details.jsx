@@ -1,4 +1,5 @@
 import React from "react";
+import paperBag from "../assest/Paperbag.png";
 
 export const Details = () => {
 
@@ -11,7 +12,7 @@ export const Details = () => {
                             Azubi<div className="font-['Armata'] text-[#001066] contents">Shop</div>
                         </div>
                         <img
-                            src="https://file.rendit.io/n/BKIdyrclxxYeXpFNT2j0.png"
+                            src={paperBag}
                             className="min-h-0 min-w-0 relative w-20"
                         />
                     </div>

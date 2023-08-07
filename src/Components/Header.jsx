@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import paperBag from "../assest/Paperbag.png";
 
 export const Header = () => {
 
@@ -8,7 +9,7 @@ export const Header = () => {
             <div className="shadow-[1px_1px_8px_1px_rgba(0,_0,_0,_0.25)] overflow-hidden bg-white flex flex-row mb-6 gap-8 h-[100px] shrink-0 items-center px-5">
                 <div className="relative flex mr-[486px] w-40 shrink-0 items-start">
                     <img
-                        src="https://file.rendit.io/n/Dws2Vln7uHxeujrlSILd.png"
+                        src={paperBag}
                         className="min-h-0 min-w-0 relative w-20"
                     />
                     <div>
