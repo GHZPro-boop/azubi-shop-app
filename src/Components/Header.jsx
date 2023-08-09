@@ -21,12 +21,16 @@ export const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div className="font-['Inter'] font-medium text-[#7d7676] hover:text-[#001066] w-12 shrink-0">
-                    Home
-                </div>
-                <div className="font-['Inter'] font-medium text-[#7d7676] hover:text-[#001066] mr-[486px] w-8 shrink-0">
-                    Cart
-                </div>
+                <Link to="/">
+                    <div className="font-['Inter'] font-medium text-[#001066] w-12 shrink-0">
+                        Home
+                    </div>
+                </Link>
+                <Link to="/cart">
+                    <div className="font-['Inter'] font-medium text-[#7d7676] hover:text-[#001066] mr-[486px] w-8 shrink-0">
+                        Cart
+                    </div>
+                </Link>
                 <Link to="/login" className="bg-[#001066] hover:whitespace-nowrap hover:bg-[#001066B2] flex flex-col h-10 items-center py-2 rounded">
                     <button className="font-['Inter'] font-medium text-white w-2/5 mx-8">Login</button>
                 </Link>
